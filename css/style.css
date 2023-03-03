@@ -58,6 +58,12 @@ p{
     color: #ff9442 ;
     font-weight: bolder;
 }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
 table{
     text-align: left;
     width: 70%;
@@ -69,6 +75,7 @@ table{
     }
     td{
         padding: 10px;
+        vertical-align: top;
     }
     .functie{
         font-weight: bolder;
