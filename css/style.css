@@ -1,0 +1,117 @@
+html{
+    background-color: #4e5c6b;
+}
+body{
+    background-color: #FFEDDF ;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 0% 5%;
+    height: 100%;
+    text-align: center;
+}
+#inhoud{
+    max-width: 500px;
+    margin: auto;
+}
+header, footer{
+    height: auto;
+    background-color: #5d6e80;
+    padding: 5px
+}
+footer{
+    font-size: small;
+    margin-top: 100px;
+}
+    h1{
+        font-size: xx-large;
+        color: #ff9442;
+    }
+    h1.naam{
+        font-size: 80px;
+    }
+    ul a{
+        color: #FFEDDF;
+        text-decoration: none;
+    }
+        ul a:hover{
+            color: #ff9442;
+            text-decoration: underline;
+        }
+        li{
+        display: inline-block;
+        height: 25px;
+        width: 100px;
+        background-color: #5d6e80;
+        padding: 3px 30px;
+        }
+p{
+    text-align: inherit;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+#hoi{
+    color: #000000 ;
+    font-size: xx-large;
+}
+#naam{
+    color: #ff9442 ;
+    font-weight: bolder;
+}
+table{
+    text-align: left;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;    }
+    th{
+        text-align: left;
+        background-color:  #ffbb8d ;
+    }
+    td{
+        padding: 10px;
+    }
+    .functie{
+        font-weight: bolder;
+        font-size: large;
+        width: 200px;
+    }
+input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin: 15px 100px;
+    width: 400px;
+    box-sizing: border-box;
+    border: #5d6e80;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+    input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+        background-color: #fdfaf8;
+        border-style: solid;
+    }
+    input[type="text"]:hover, input[type="email"]:hover, textarea:hover{
+        border-width: 3px;
+        border-style: solid;
+        border-color: #000000;
+    }
+    textarea{
+        height: 150px;
+    }
+button{
+    margin: 15px 200px;
+    width: 200px;
+    box-sizing: border-box;
+}
+    button:hover{
+        background-color: #ffbb8d;
+    }
+    button:active{
+        background-color: #ff9442;
+    }
+a{
+    color: #000000;
+    text-decoration: none;
+}
+    a:hover{
+        font-weight: bold;
+    }
